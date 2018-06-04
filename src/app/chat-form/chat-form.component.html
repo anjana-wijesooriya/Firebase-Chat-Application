@@ -1,0 +1,9 @@
+<input 
+  class="chatInput" 
+  [(ngModel)]="messege" 
+  (keydown)= handleSubmit($event)
+  />
+
+<button 
+  class="chatButton" 
+  (click)="send()"><i class="fa fa-paper-plane-o"></i> Send</button>
